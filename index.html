@@ -1,5 +1,5 @@
 
-
+<?php require("filename.php");?>
 <html>
 <head>
 <title>Sam Larsen</title>
@@ -66,18 +66,18 @@
 </div>
 
 <div id="contactMe" class="tab" style="display:none">
-  <h2>Howdy</h2>
-  
+<h2>Contact</h2>
 
-<form action="mailto:sllarsen@vt.edu" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-Comment:<br>
-<input type="text" name="comment" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
+<label> Your name: </label>
+<form name="sendmail" action="" method="post">
+<input class="contactBox" name="yourname" type="text"/>
+<label> Your email:</label>
+<input class="contactBox" name="email" type="text"/>
+<label> Subject:</label>
+<input class="contactBox" name="subject" type="text"/>
+<label> Message:</label>
+<textarea type="contactBox" name="message" type="text"/></textarea>
+<input class="centered" type="submit" name="submit" value="Send Email" />
 </form>
 
   <p></p>
