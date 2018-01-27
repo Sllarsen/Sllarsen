@@ -2,18 +2,19 @@
 {
   color: lightblue;
 }
-.allTabs
+.allTabs /*Tabs*/
 {
+  min-width: 700px;
   width: 100%;
   overflow: hidden;
   display: inline-block;
   padding: 10px;
   background-color: lightblue;
 }
-.button {
+.button { /*Tabs*/
   position: relative;
-    background-color: green;
-    border-color: #7D3C98;
+    background-color: #0000cc;
+    border-color: #000000;
     border-radius: 12px;
     color: white;
     padding: 15px 32px;
@@ -27,18 +28,18 @@
     box-shadow: 0 9px #999;
 
   }
-  .button:hover {
+  .button:hover {/*Tabs on hovor*/
       color: white;
   }
-  .button:active
+  .button:active /*Tabs when clicked*/
   {
     transform: translateY(10px);
   }
 #bodyAll
   {
-    background-color: lightblue;
+    background-color: lightblue; /*backgroundColor*/
   }
-  #vtfootball
+  #vtfootball /*Intro Pic*/
   {
     width: 300px;
     height: 450px;
@@ -46,18 +47,26 @@
     border-radius: 200px;
     margin: -70px 300px 0px 0px
   }
-  #meetMeIntroText
+  #meetMeIntroText /*Intro text*/
   {
-    padding-left: 50px;
+    padding-left: 20px;
     margin: 100px 100px;
-    border: 10px dashed black;
+    border: 10px solid black;
     width: 400px;
-    height: 300px;
-    background-color: white;
+    height: 400px;
+    background-color: lightblue;
+    text-align: left;
+  font-family:  sans-serif;
+   }
+  .introTextPics /*Icons in meet me intro*/
+  {
+    padding-left: 60px;
   }
   /* The styling for the see me page */
   .pictureFrames img
   {
+    min-width: 100px;
+    max-width: 100%;
   	background: white;
   	display: inline;
   	float: left;
@@ -72,8 +81,9 @@
   	-moz-transition: all .15s linear;
   	transition: all .15s linear;
   	z-index:0;
-          position:relative;
+    position: relative;
   }
+  /*thumbTacks for see me page */
   /* Form contact box on Contact Me Page */
   .contactBox
     {

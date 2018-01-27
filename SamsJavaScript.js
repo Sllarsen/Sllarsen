@@ -12,12 +12,17 @@ function openTab(tabName)
 //change the css of the active tab
 function isToggled(number)
 {
-    document.getElementById("button1").style.backgroundColor = "green";
-    document.getElementById("button2").style.backgroundColor = "green";
-    document.getElementById("button3").style.backgroundColor = "green";
+    document.getElementById("button1").style.backgroundColor = "blue";
+    document.getElementById("button2").style.backgroundColor = "blue";
+    document.getElementById("button3").style.backgroundColor = "blue";
     document.getElementById("button1").style.transform = "translateY(0px)";
     document.getElementById("button2").style.transform = "translateY(0px)";
     document.getElementById("button3").style.transform = "translateY(0px)";
+    document.getElementById("bodyAll").style.backgroundImage = "none";
+    document.getElementById("allTabs").style.backgroundImage = "url('none')";
+
+
+
 
         if (number == 1)
         {
@@ -26,8 +31,10 @@ function isToggled(number)
         }
         else if (number == 2)
         {
-            document.getElementById("button2").style.backgroundColor = "#A569BD";
-            document.getElementById("button2").style.transform = "translateY(10px)";
+          document.getElementById("allTabs").style.backgroundImage = "url('http://xboxhut.com/wp-content/uploads/2016/06/cork-board-background-template-traditional-compact.jpg')";
+          document.getElementById("bodyAll").style.backgroundImage = "url('http://xboxhut.com/wp-content/uploads/2016/06/cork-board-background-template-traditional-compact.jpg')";
+          document.getElementById("button2").style.backgroundColor = "#A569BD";
+          document.getElementById("button2").style.transform = "translateY(10px)";
         }
         else
         {
@@ -35,3 +42,4 @@ function isToggled(number)
             document.getElementById("button3").style.transform = "translateY(10px)";
         }
 }
+//changes the background color of the picture page
