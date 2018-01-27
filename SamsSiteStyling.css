@@ -4,7 +4,6 @@
 }
 .allTabs /*Tabs*/
 {
-  min-width: 700px;
   width: 100%;
   overflow: hidden;
   display: inline-block;
@@ -65,8 +64,6 @@
   /* The styling for the see me page */
   .pictureFrames img
   {
-    min-width: 100px;
-    max-width: 100%;
   	background: white;
   	display: inline;
   	float: left;
@@ -84,6 +81,12 @@
     position: relative;
   }
   /*thumbTacks for see me page */
+  .thumbTacks
+  {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
   /* Form contact box on Contact Me Page */
   .contactBox
     {
