@@ -2,8 +2,14 @@
 {
   color: lightblue;
 }
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
 .allTabs /*Tabs*/
 {
+  min-width: 25%;
   width: 100%;
   overflow: hidden;
   display: inline-block;
@@ -11,20 +17,22 @@
   background-color: lightblue;
 }
 .button { /*Tabs*/
+  min-width: 30%;
+  overflow-x: auto;
   position: relative;
     background-color: #0000cc;
     border-color: #000000;
     border-radius: 12px;
     color: white;
     padding: 15px 32px;
-    width: 30%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 10px;
+    margin-right: 20px;
     cursor: pointer;
     box-shadow: 0 9px #999;
+
 
   }
   .button:hover {/*Tabs on hovor*/
@@ -64,6 +72,7 @@
   /* The styling for the see me page */
   .pictureFrames img
   {
+    min-width: 100px;
   	background: white;
   	display: inline;
   	float: left;
