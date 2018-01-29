@@ -1,80 +1,105 @@
 <html>
 <head>
-<title>Sam Larsen</title>
-<meta name="viewport" content="width=device-width, initial-scale=2">
-<link rel="stylesheet" type="text/css" href="SamsSiteStyling.css">
-<script type="text/javascript" src="SamsJavaScript.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <title>Sam Larsen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=2
+  ">
+  <link rel="stylesheet" type="text/css" href="SamsSiteStyling.css">
+  <script type="text/javascript" src="SamsJavaScript.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 </head>
 <div id ="wrapper">
-<body id = bodyAll>
+  <body id = bodyAll>
+    <div class="allTabs" id ="allTabs">
+      <button id = "button1" class="button" onclick="openTab('meetMe'); isToggled(1);">Meet Me</button>
+      <button id = "button2" class="button" onclick="openTab('seeMe'); isToggled(2);">See Me</button>
+      <button id = "button3" class="button" onclick="openTab('contactMe'); isToggled(3);">Contact Me</button>
+    </div>
 
-<div class="allTabs" id ="allTabs">
-  <button id = "button1" class="button" onclick="openTab('meetMe'); isToggled(1);">Meet Me</button>
-  <button id = "button2" class="button" onclick="openTab('seeMe'); isToggled(2);">See Me</button>
-  <button id = "button3" class="button" onclick="openTab('contactMe'); isToggled(3);">Contact Me</button>
-</div>
+    <div id="meetMe" class="tab">
+      <img id = "introSoccerPic" src="https://farm5.staticflickr.com/4509/23987664018_cd37082e58_z.jpg">
+      <div id ="meetMeIntroText">
+        <p>Howdy! If you are reading this, chances are you are curious about who I am as a person. My name is Sam Larsen and this is my website.</p>
+        <p>Currently, I am a sophomore at Virginia Tech majoring in Computer Science. I love being a Hokie and could jump
+          all day to Enter Sandman. In the Fall, you can catch me at a Virginia Tech Football game. In the Winter, people typically will find me
+          inside surrounded by a plethora of salt lamps working on personal projects and catching up on some good movies.
+          Spring is my time to play soccer and toss around the frisby. Lastly in the Summer,
+          I will spend every moment catching the biggest fish, but I will never have a picture to prove it....cause all I have are pictures of deez nutz. </p>
+          <canvas id="introCanvas" width="300" height="300">
+            <div class ="introTextPics">
+              <img id="pic1" height="60" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/PICOL_icon_Football.svg/2000px-PICOL_icon_Football.svg.png"/>
+              <img id="pic2" height="60" src="https://visualpharm.com/assets/342/Movie%20Projector-595b40b75ba036ed117d9911.svg"/>
+              <img id="pic3" height="60" src="http://icons.iconarchive.com/icons/icons8/android/256/Sports-Football-icon.png"/>
+              <img id="pic4" height="60" src="https://image.flaticon.com/icons/svg/76/76738.svg"/>
+            </div>
+          </canvas>
+        </div>
 
-<div id="meetMe" class="tab">
-<img id = "vtfootball" src="https://farm5.staticflickr.com/4509/23987664018_cd37082e58_z.jpg">
-<div id ="meetMeIntroText">
-  <p>Howdy! If you are reading this, chances are you are curious about who I am as a person. My name is Sam Larsen and this is my website.</p>
-  <p>Currently, I am a sophomore at Virginia Tech majoring in Computer Science. I love being a Hokie and could jump
-    all day to Enter Sandman. In the Fall, you can catch me at a Virginia Tech Football game. In the Winter, people typically will find me
-    inside surrounded by a plethora of salt lamps working on personal projects and catching up on some good movies.
-    Spring is my time to play soccer and toss around the frisby. Lastly in the Summer,
-     I will spend every moment catching the biggest fish, but I will never have a picture to prove it....cause all I have are pictures of deez nutz. </p>
-<div class ="introTextPics">
-<img id="pic1" height="60" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/PICOL_icon_Football.svg/2000px-PICOL_icon_Football.svg.png"/>
-<img id="pic2" height="60" src="https://visualpharm.com/assets/342/Movie%20Projector-595b40b75ba036ed117d9911.svg"/>
-<img id="pic3" height="60" src="http://icons.iconarchive.com/icons/icons8/android/256/Sports-Football-icon.png"/>
-<img id="pic4" height="60" src="https://image.flaticon.com/icons/svg/76/76738.svg"/>
-</div>
-   </div>
+      </div>
+      <div id="seeMe" class="tab" style="display:none">
+        <h2>Check Me Out.</h2>
 
-</div>
-<div id="seeMe" class="tab" style="display:none">
-  <h2>Check Me Out.</h2>
+        <div class="pictureFrames">
 
-  <div class="pictureFrames">
-	<img style="transform: rotate(-7deg);" height="300" src="https://farm5.staticflickr.com/4702/38930419604_b21357e8a8_z.jpg"/>
-	<img style="transform: rotate(7deg);"height="300" width="250" src="https://farm5.staticflickr.com/4446/37840018851_b5e337d723_z.jpg"/>
-	<img style="transform: rotate(-4deg);"height="300" src="https://farm5.staticflickr.com/4610/39772877582_304f5570b5_z.jpg"/>
-	<img height="300" src="https://farm5.staticflickr.com/4462/37840018931_99322acfd3_z.jpg"/>
-	<img style="transform: rotate(25deg);" height="300" src="https://farm5.staticflickr.com/4664/39772877662_ee5a4eeaf5_z.jpg"/>
-	<img height="300" src="https://farm5.staticflickr.com/4628/25932234098_2f9cbdf285_z.jpg"/>
-	<img style="transform: rotate(-10deg);"height="300" src="https://farm5.staticflickr.com/4760/39772878922_5b46d87a78_z.jpg"/>
-	<img style="transform: rotate(7deg);"height="300" src="https://farm5.staticflickr.com/4704/25932235128_6eede5e7fc_z.jpg"/>
-  <img height="300" src="https://farm5.staticflickr.com/4675/39772877932_95a0370abc_z.jpg"/>
-  <img height="300" src="https://farm5.staticflickr.com/4716/39772879232_4d662b8b3e_z.jpg"/>
-  <img style="transform: rotate(-10deg);" height="300" src="https://farm5.staticflickr.com/4740/39772878092_4d239c7e8c_z.jpg"/>
-  <img style="transform: rotate(7deg);" height="300" src="https://farm5.staticflickr.com/4674/26029741018_23d909048f_b.jpg"/>
-  <img height="300" src="https://farm5.staticflickr.com/4608/39804697651_2fbf4549f8_z.jpg"/>
-  <img  style="transform: rotate(10deg);"height="300" src="https://farm5.staticflickr.com/4743/39772878262_c8636b09cf_z.jpg"/>
+          <img style="top:50px; left:0px; transform: rotate(0deg);" src ="https://farm5.staticflickr.com/4625/39772878352_8a22302dbd.jpg"><!--Christmas -->
+          <img style="top:50px; left:20px;transform: rotate(0deg);" src="https://farm5.staticflickr.com/4752/39772877622_3bf929fd6d.jpg"><!--on Field -->
+          <img style="top:50px; left:50px; transform: rotate(0deg); width: 250px; height: 330px;"src="https://farm5.staticflickr.com/4674/26029741018_23d909048f_b.jpg"/><!--Sam hole -->
+          <img style="top:70px; left:0px; transform: rotate(0deg); height: 500px; float: left;" src="https://farm5.staticflickr.com/4610/39772877582_304f5570b5_z.jpg"/><!--friend pickup -->
+          <img style="top:20px; left:20px; transform: rotate(0deg);" src="https://farm5.staticflickr.com/4675/39772877932_95a0370abc_z.jpg"/><!--Tucker -->
+          <img style="top:70px; left:20px; transform: rotate(0deg);"  src="https://farm5.staticflickr.com/4664/39772877662_ee5a4eeaf5_z.jpg"/>  <!--scarf -->
+          <img style="top:-230px; left:0px; transform: rotate(0deg);" src="https://farm5.staticflickr.com/4675/39772878192_5926acde38_c.jpg"/><!--football parking -->
+          <img style="top:-230px; left: 40px; transform: rotate(0deg);"src="https://farm5.staticflickr.com/4740/39772878092_4d239c7e8c_z.jpg"/><!--HockeyGame -->
+          <img style="top:-250px; left:0px; transform: rotate(0deg);"src="https://farm5.staticflickr.com/4628/25932234098_2f9cbdf285_z.jpg"/><!--escape room -->
+          <img style="top:-250px; left: 50px; transform: rotate(0deg);" src="https://farm5.staticflickr.com/4611/25080357267_7904056d0a_z.jpg"/><!--trout -->
 
-  <img height="300" src="https://farm5.staticflickr.com/4743/39804698041_d084d4d157_z.jpg"/>
-  <img style="transform: rotate(7deg);" height="300" src="https://farm5.staticflickr.com/4767/25031006917_3fe860803b_b.jpg"/>
-  <img style="transform: rotate(11deg);"height="300" src="https://farm5.staticflickr.com/4709/39772878322_8087994d9b_z.jpg"/>
-  <img height="300" src="https://farm5.staticflickr.com/4717/25932235868_e604f814c8_z.jpg"/>
-  <img style="transform: rotate(7deg);" height="300" src="https://farm5.staticflickr.com/4717/39772878132_9dc0b792b8_z.jpg"/>
-  <img style="transform: rotate(-9deg);" height="300" src="https://farm5.staticflickr.com/4625/39772878352_8a22302dbd_z.jpg"/>
-  <img height="300" src="https://farm5.staticflickr.com/4653/39772878242_f6cee41bc7_z.jpg"/>
-  <img style="transform: rotate(7deg);" height="300" src="https://farm5.staticflickr.com/4698/39869861092_798698d562_b.jpg"/>
-</div>
+          <img style="top:-250px; left:0px; transform: rotate(0deg);"src="https://farm5.staticflickr.com/4708/39920102252_9992f65f2a_z.jpg"/><!--sleeping lea -->
+        <img style="top:-250px; left:100px; transform: rotate(0deg);" src="https://farm5.staticflickr.com/4760/39772878922_5b46d87a78_z.jpg"/><!--football 5 friends -->
+          <img style="top:-250px; left:0px; transform: rotate(0deg);" src="https://farm5.staticflickr.com/4717/25932235868_e604f814c8_z.jpg"/><!--whipped cream -->
+          <img style="top:-250px; left:80px; transform: rotate(0deg);"  src="https://farm5.staticflickr.com/4743/39920102002_66202491a6_z.jpg"/><!--ocean paddle-->
+          <img style="top:-250px; left:170px; transform: rotate(0deg);"  src="https://farm5.staticflickr.com/4767/25031006917_3fe860803b_b.jpg"/><!--owen race -->
+          <img style="top:-250px; left:40px; transform: rotate(0deg); height: 450px; float: right;"  src="https://farm5.staticflickr.com/4621/39245444184_5f2b4a4069.jpg"/><!--soccer seniors -->
+<img style="top:-250px; left:0px; transform: rotate(0deg); height: 450px; " src="https://farm5.staticflickr.com/4740/26079318938_758782b54a_z.jpg"/><!--Blue Cat -->
+          <img style="top:-250px; left:0px; transform: rotate(0deg); width: 200px; height: 330px;" src="https://farm5.staticflickr.com/4716/39772879232_4d662b8b3e_z.jpg"/><!--Tucker Pickup -->
 
-<div class ="thumbTacks">
-<img style= "left: 70; top: -70"; id = "thumbTacks" src="http://www.clker.com/cliparts/B/V/P/X/Z/e/thumbtack-pushpin-2-md.png"/>
-</div>
-  <p></p>
-</div>
+          <img style="top:-250px; left:50px; transform: rotate(0deg);"  src="https://farm5.staticflickr.com/4748/39920101942_b4b7b39aa0_z.jpg"/><!--snowboard -->
+          <img style="top:-250px; left:100px; transform: rotate(0deg) width: 200px; height: 250px;"src="https://farm5.staticflickr.com/4608/39804697651_2fbf4549f8_z.jpg"/><!--River Chillin -->
+          <img style="top:-150px; left:-400px; transform: rotate(0deg);  width: 400px; height: 330px;"  src="https://farm5.staticflickr.com/4677/39772877642_24d1ee8612.jpg"/><!--paddleboard-->
 
-<div id="contactMe" class="tab" style="display:none">
-<h2>Contact</h2>
+          <img style="top: -250px; left: 700px; transform: rotate(0deg) ; width: 300px; height: 300px;" src="https://farm5.staticflickr.com/4743/39804698041_d084d4d157_z.jpg"/><!--old rag -->
+          <img style="top: -675px; left: 300px; transform: rotate(0deg);"src="https://farm5.staticflickr.com/4653/39772878242_f6cee41bc7_z.jpg"/><!--family wedding -->
+         <img style="top:-600px; left:0px; transform: rotate(0deg);"src="https://farm5.staticflickr.com/4750/28172481919_f0a5de80ea_z.jpg"/><!--shotgun -->-
 
 
-  <p>hello</p>
-</div>
-</div>
+          <img style="top:-700px; left: 700px; transform: rotate(0deg);"  src="https://farm5.staticflickr.com/4699/28172482379_041c3999dc_z.jpg"/><!--golf -->
 
-</body>
-</html>
+
+          <img style="top:-1050px; left: 0px;  width: 620px; height: 500px; transform: rotate(0deg);" src="https://farm5.staticflickr.com/4709/39772878322_8087994d9b_z.jpg"/><!--bricks -->
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class ="thumbTacks">
+          <!--  <img style= "left: 70; top: -70"; id = "thumbTacks" src="http://www.clker.com/cliparts/B/V/P/X/Z/e/thumbtack-pushpin-2-md.png"/> -->
+        </div>
+        <p></p>
+      </div>
+
+      <div id="contactMe" class="tab" style="display:none">
+        <h2>Contact</h2>
+
+
+        <p>hello</p>
+      </div>
+    </div>
+
+  </body>
+  </html>
