@@ -41,6 +41,12 @@
 {
   transform: translateY(10px);
 }
+#button1
+{
+  background-color: #A569BD;
+  transform: translateY(10px);
+
+}
 #bodyAll
 {
   background-color: lightblue; /*backgroundColor*/
@@ -52,74 +58,67 @@
   height: 350px;
   border-radius: 50px;
   margin-left: 40px;
-  display: inline;
-margin: 40px 50px 100px 010px;
+margin: 50px 50px 100px 10px;
 
 }
 #meetMeIntroText /*Intro text*/
 {
-
-  display: inline;
-  word-wrap: normal;
-
-  margin: 100px 50px 5px 50px;
+  float: right;
+  margin-bottom: 30px;
+  padding-top: 20px;
+font-size: 20px;
   width: 400px;
   height: 400px;
-  background-color: lightblue;
-  text-align: left;
   font-family:  sans-serif;
 
 }
 
 /* This is the beginning on the animated icons on the first page */
-.row1 img
+.introTextPics img
 {
-display: inline-block;
+  float: right;
+  display: inline;
 }
-#levPics1/*Icons in meet me intro. THE ODD ONES MOVING TO THE LEFT*/
+.levPics1/*Icons in meet me intro. THE ODD ONES MOVING TO THE LEFT*/
 {
 
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   position:relative;
   -webkit-animation-name: movesLeft;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 15s;
   -webkit-animation-iteration-count: infinite;
   animation-name: movesLeft;
-  animation-duration: 15s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
 }
+<!--
 @keyframes movesLeft {
-  0%   {right:0px; }
-  25%  {right:-50px; }
-  50%  {right:50px; }
-  75%  {right:-50px;}
-  100% {right:50px;}
+  0%   {top:50px; }
+  50%  {top:150px; }
+  100% {top:50px;}
 }
 
-#levPics2/*Icons in meet me intro. THE ODD ONES MOVING TO THE LEFT*/
+.levPics2/*Icons in meet me intro. THE ODD ONES MOVING TO THE LEFT*/
 {
-  width: 108px;
-  height: 108px;
-  padding-top: 10px;
+  z-index: -1;
+  left: 440px;
+  padding-left: 9px;
+  padding-right: 3px;
+  width: 100px;
+  height: 100px;
   position:relative;
   -webkit-animation-name: movesRight;
   -webkit-animation-duration: 15s;
   -webkit-animation-iteration-count: infinite;
   animation-name: movesRight;
-  animation-duration: 15s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
 }
 @keyframes movesRight {
-  0%   {left:58px; }
-  25%  {left:-58px; }
-  50%  {left:58px; }
-  75%  {left:-58px;}
-  100% {left:58px;}
-}
-
-.hit{
-  display: inline;
+  0%   {top:240px; }
+  50%  {top:105px; }
+  100% {top:240px;}
 }
 /* The styling for the see me page */
 .pictureFrames
