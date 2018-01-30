@@ -3,9 +3,9 @@
   color: lightblue;
 }
 #wrapper {
-    margin-left:auto;
-    margin-right:auto;
-    width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  width:1000px;
 }
 .allTabs /*Tabs*/
 {
@@ -19,107 +19,159 @@
   width: 300px;
   overflow-x: none;
   position: relative;
-    background-color: #0000cc;
-    border-color: #000000;
-    border-radius: 12px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin-right: 20px;
-    cursor: pointer;
-    box-shadow: 0 9px #999;
+  background-color: #0000cc;
+  border-color: #000000;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
 
 
-  }
-  .button:hover {/*Tabs on hovor*/
-      color: white;
-  }
-  .button:active /*Tabs when clicked*/
-  {
-    transform: translateY(10px);
-  }
+}
+.button:hover {/*Tabs on hovor*/
+  color: white;
+}
+.button:active /*Tabs when clicked*/
+{
+  transform: translateY(10px);
+}
 #bodyAll
-  {
-    background-color: lightblue; /*backgroundColor*/
-  }
-  #introSoccerPic /*Intro Pic*/
-  {
-    width: 300px;
-    height: 450px;
-    float:right;
-    border-radius: 200px;
-    margin-left: 40px
+{
+  background-color: lightblue; /*backgroundColor*/
+}
+#introCoolPic /*Intro Pic*/
+{
+  float: left;
+  width: 500px;
+  height: 350px;
+  border-radius: 50px;
+  margin-left: 40px;
+  display: inline;
+margin: 40px 50px 100px 010px;
 
-  }
-  #meetMeIntroText /*Intro text*/
-  {
-    padding-left: 20px;
-    margin: 50px 50px 0px 0px;
-    border: 10px solid black;
-    width: 400px;
-    height: 400px;
-    background-color: lightblue;
-    text-align: left;
+}
+#meetMeIntroText /*Intro text*/
+{
+
+  display: inline;
+  word-wrap: normal;
+
+  margin: 100px 50px 5px 50px;
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  text-align: left;
   font-family:  sans-serif;
-   }
-  .introTextPics /*Icons in meet me intro*/
-  {
-    padding-left: 60px;
-  }
-  /* The styling for the see me page */
-  .pictureFrames
-  {
-    margin-left:auto;
-    margin-right:auto;
-    width:1000px;
-  }
-  .pictureFrames img
-  {
-    min-width: 100px;
-    height: 350px;
-  	background: white;
-  	display: inline;
-  	float: left;
-  	margin: 10 0px 30px;
-  	padding: 10px 10px 30px;
-  	text-align: center;
-  	text-decoration: none;
-  	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-  	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
-  	box-shadow: 0 4px 6px rgba(0,0,0,.3);
-  	-webkit-transition: all .15s linear;
-  	-moz-transition: all .15s linear;
-  	transition: all .15s linear;
-  	z-index:0;
-    position: relative;
-  }
-  /*thumbTacks for see me page */
-  #thumbTacks
-  {
-    position: relative;
-    width: 50px;
-    height: 50px;
-  }
-  /* Form contact box on Contact Me Page */
-  .contactBox
-    {
-      width: 100%;
-      height: 30px;
-      border-radius: 5px;
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
-    .centered
-    {
-      text-align: center;
-      width: 100%;
-    }
-    .textarea
-    {
-      width: 100%;
-      height: 200px;
-      resize: none;
-    }
+
+}
+
+/* This is the beginning on the animated icons on the first page */
+.row1 img
+{
+display: inline-block;
+}
+#levPics1/*Icons in meet me intro. THE ODD ONES MOVING TO THE LEFT*/
+{
+
+  width: 100px;
+  height: 100px;
+  position:relative;
+  -webkit-animation-name: movesLeft;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: movesLeft;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+@keyframes movesLeft {
+  0%   {right:0px; }
+  25%  {right:-50px; }
+  50%  {right:50px; }
+  75%  {right:-50px;}
+  100% {right:50px;}
+}
+
+#levPics2/*Icons in meet me intro. THE ODD ONES MOVING TO THE LEFT*/
+{
+  width: 108px;
+  height: 108px;
+  padding-top: 10px;
+  position:relative;
+  -webkit-animation-name: movesRight;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: movesRight;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+@keyframes movesRight {
+  0%   {left:58px; }
+  25%  {left:-58px; }
+  50%  {left:58px; }
+  75%  {left:-58px;}
+  100% {left:58px;}
+}
+
+.hit{
+  display: inline;
+}
+/* The styling for the see me page */
+.pictureFrames
+{
+  margin-left:auto;
+  margin-right:auto;
+  width:1000px;
+}
+.pictureFrames img
+{
+  min-width: 100px;
+  height: 350px;
+  background: white;
+  display: inline;
+  float: left;
+  margin: 10 0px 30px;
+  padding: 10px 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  transition: all .15s linear;
+  z-index:0;
+  position: relative;
+}
+/*thumbTacks for see me page */
+#thumbTacks
+{
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+/* Form contact box on Contact Me Page */
+.contactBox
+{
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.centered
+{
+  text-align: center;
+  width: 100%;
+}
+.textarea
+{
+  width: 100%;
+  height: 200px;
+  resize: none;
+}
