@@ -1,11 +1,12 @@
-.body
-{
-  color: lightblue;
-}
+
 #wrapper {
   margin-left:auto;
   margin-right:auto;
   width:1000px;
+}
+#bodyAll
+{
+  background-color: #1dd1a1; /*backgroundColor*/
 }
 .allTabs /*Tabs*/
 {
@@ -13,26 +14,24 @@
   overflow: hidden;
   display: inline-block;
   padding: 10px;
-  background-color: lightblue;
+  background-color: inherit;
 }
 .button { /*Tabs*/
   width: 300px;
   overflow-x: none;
   position: relative;
-  background-color: #0000cc;
+  background-color: white;
   border-color: #000000;
   border-radius: 12px;
-  color: white;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 26px;
   margin-right: 20px;
   cursor: pointer;
   box-shadow: 0 9px #999;
-
-
 }
 .button:hover {/*Tabs on hovor*/
   color: white;
@@ -47,10 +46,7 @@
   transform: translateY(10px);
 
 }
-#bodyAll
-{
-  background-color: lightblue; /*backgroundColor*/
-}
+
 #introCoolPic /*Intro Pic*/
 {
   float: left;
@@ -58,18 +54,19 @@
   height: 350px;
   border-radius: 50px;
   margin-left: 40px;
-margin: 50px 50px 100px 10px;
+  margin: 50px 50px 100px 10px;
 
 }
-#meetMeIntroText /*Intro text*/
+/*Intro text on the first page for the stuff on the left*/
+#meetMeIntroText
 {
   float: right;
   margin-bottom: 30px;
   padding-top: 20px;
-font-size: 20px;
+  font-size: 18px;
   width: 400px;
   height: 400px;
-  font-family:  sans-serif;
+  font-family: cursive;
 
 }
 
@@ -147,46 +144,86 @@ font-size: 20px;
   z-index:0;
   position: relative;
 }
-/*thumbTacks for see me page */
-#thumbTacks
-{
-  position: relative;
-  width: 50px;
-  height: 50px;
-}
 /*Contact Page starts here */
+#welcomeTextHey{
+  font-size: 40px;
+}
+
+/*Text at top of the contact me page*/
+#topTextContactMe
+{
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 80px;
+  padding-top: 10px;
+  font-size: 20px;
+  align: left;
+  height: 200px;
+  font-family:  sans-serif;
+
+}
+/*Tucker Pick up picture*/
+#tuckerPickUp
+{
+  height: 500px;
+  width: 350px;
+  border-radius: 100px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 100px;
+}
 
 /* Form contact box on Contact Me Page */
+#contactForm
+{
+
+}
 label
 {
   display:block;
   margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 140px;
   letter-spacing:2px;
 }
-input, textarea {
-	width:439px;
-	height:27px;
-	background:#efefef;
-	border:1px solid #dedede;
-	padding:10px;
-	margin-top:3px;
-	font-size:0.9em;
-	color:#3a3a3a;
+input, textarea
+{
+  margin-top: 80px;
+  margin-left: 140px;
+  width:439px;
+  height:27px;
+  background:#efefef;
+  border:1px solid #dedede;
+  padding:10px;
+  margin-top:3px;
+  font-size:0.9em;
+  color:#3a3a3a;
   -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
 }
-textarea {
-height:213px;
-background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+input:focus, textarea:focus
+{
+  border:1px solid #97d6eb;
 }
-#submit {
-    width:127px;
-    height:38px;
-    display: block;
-    border:none;
-    margin-top:20px;
-    cursor:pointer;
+textarea
+{
+  height:213px;
+  background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+#submit
+{
+  width:127px;
+  height:38px;
+  display: block;
+  border:none;
+  margin-top:20px;
+  cursor:pointer;
+}
+#submit:hover
+{
+  opacity: 20;
 }
 .centered
 {
@@ -199,9 +236,69 @@ background:url(images/textarea-bg.jpg) right no-repeat #efefef;
   height: 200px;
   resize: none;
 }
+input:focus, textarea:focus {
+  border:1px solid #97d6eb;
+}
+/**
+End of contact me box.
+**/
+
+/*newton ball gif*/
 #newtonBalls
 {
-  height: 600px;
-  weight: 600px;
-  float: right;
+  height: 800px;
+  weight: 800px;
+  margin-left: 100px;
 }
+/* The social media icons on the balls*/
+#facebook
+{
+  position: relative;
+  height: 81px;
+  width: 81px;
+  top: -333px;
+  left:465px;
+}
+#twitter
+{
+  position: relative;
+  height: 62px;
+  width: 62px;
+  top: -341px;
+  left:450px;
+}
+#instagram{
+  position: relative;
+  height: 63px;
+  width: 63px;
+  top: -342px;
+  left:443px;
+}
+#github
+{
+  position: relative;
+  height: 65px;
+  width: 65px;
+  top: -340px;
+  left:485px;
+
+}
+#resume
+{
+  position: relative;
+  height: 63px;
+  width: 63px;
+  top: -343px;
+  left:437px;
+  -webkit-animation-name: swingRight;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: swingRight;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes swingRight {
+  0%   {left:437px; }
+  50%  {left:500px; top:-390;}
+  100% {left:437px;}
