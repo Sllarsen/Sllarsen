@@ -19,14 +19,14 @@
       <div id ="meetMeIntroText">
         <p>Howdy! If you are reading this, Congrats you made it this far. My name is Sam Larsen and Welcome to website!</p>
         <p>Currently, I am a sophomore at Virginia Tech majoring in Computer Science. My favorite color is red, while my blood is Chicago Maroon and Burnt Orange. In the Fall,
-         catch me at a Hokie football game or enjoying a the cold air with a warming bonfire. In the Winter, join me for a good movie or a trip down the slopes snowboarding!.
+          catch me at a Hokie football game or enjoying a the cold air with a warming bonfire. In the Winter, join me for a good movie or a trip down the slopes snowboarding!.
           Do not look at my home for me as Spring is the time I am exploring the outdoors and enjoying Nature's finest. Lastly in the Summer,
           I spend all my time reeling in the biggest fish in the river. However, I will never have a picture because that would be trivial. </p>
         </div>
 
         <div class ="introTextPics">
-<img class="levPics1" src="https://cdn0.iconfinder.com/data/icons/summer-2/512/Summer_512px-05.png"/>
-<img class="levPics1" src="https://cdn0.iconfinder.com/data/icons/spring-garden/512/Icon_45-512.png"/>
+          <img class="levPics1" src="https://cdn0.iconfinder.com/data/icons/summer-2/512/Summer_512px-05.png"/>
+          <img class="levPics1" src="https://cdn0.iconfinder.com/data/icons/spring-garden/512/Icon_45-512.png"/>
           <img class="levPics1" src="http://icons.iconarchive.com/icons/fps.hu/free-christmas-flat-circle/512/snowman-icon.png/">
           <img class="levPics1" src="http://www.freeiconspng.com/uploads/autumn-dead-tree-fall-fallen-leaves-tree-icon-24.png"/>
           <img class="levPics2" src="http://www.paulsfisheries.co.uk/assets/images/icons/3.png"/>
@@ -79,15 +79,21 @@
     <div id="contactMe" class="tab" style="display:none">
       <h2>Contact</h2>
 
-      <form action="https://formspree.io/sllarsen@vt.edu"
-      method="POST">
-      <input type="text" name="name">
-      <input type="message" name"messsage">
-      <input type="email" name="_replyto">
-      <input type="submit" value="Send">
+<div id ="contactForm">
+      <form action="https://formspree.io/sllarsen@vt.edu"method="POST">
+      <label for="fname"> First Name </label>
+      <input type="text" name="name" placeholder="Your Name...">
+      <label for="lname"> Last Name </label>
+      <input type="message" name"messsage" placeholder="Your Last Name...">
+      <label for="email">Your Email </label>
+      <input type="text" name="_replyto" placeholder="Your Email...">
+      <label for="message"> Message </label>
+      <textarea name="message" name="message" placeholder="Type Here"></textarea>
+      <input id="submit" name="submit" type="submit" value="Submit">
     </form>
+  </div>
+    <img id = "newtonBalls" src="https://media.giphy.com/media/xUOwFXqVqXA1Mp3KLK/giphy.gif">
 
-    <p>hellop</p>
   </div>
 </div>
 
