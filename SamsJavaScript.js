@@ -12,9 +12,9 @@ function openTab(tabName)
 //change the css of the active tab
 function isToggled(number)
 {
-    document.getElementById("button1").style.backgroundColor = "blue";
-    document.getElementById("button2").style.backgroundColor = "blue";
-    document.getElementById("button3").style.backgroundColor = "blue";
+    document.getElementById("button1").style.backgroundColor = "white";
+    document.getElementById("button2").style.backgroundColor = "white";
+    document.getElementById("button3").style.backgroundColor = "white";
     document.getElementById("button1").style.transform = "translateY(0px)";
     document.getElementById("button2").style.transform = "translateY(0px)";
     document.getElementById("button3").style.transform = "translateY(0px)";
