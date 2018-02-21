@@ -177,7 +177,7 @@
 /* Form contact box on Contact Me Page */
 #contactForm
 {
-
+float: left;
 }
 label
 {
@@ -243,13 +243,6 @@ input:focus, textarea:focus {
 End of contact me box.
 **/
 
-/*newton ball gif*/
-#newtonBalls
-{
-  height: 800px;
-  weight: 800px;
-  margin-left: 100px;
-}
 /* The social media icons on the balls*/
 #facebook
 {
