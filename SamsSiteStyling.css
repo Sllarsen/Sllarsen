@@ -50,24 +50,21 @@
 #introCoolPic /*Intro Pic*/
 {
   float: left;
-  width: 500px;
-  height: 350px;
+  width: 400px;
+  height: 450px;
   border-radius: 50px;
-  margin-left: 40px;
-  margin: 50px 50px 100px 10px;
-
+  margin-left: 0px;
+  margin: 50px 70px 70px 70px;
 }
 /*Intro text on the first page for the stuff on the left*/
 #meetMeIntroText
 {
-  float: right;
-  margin-bottom: 30px;
+ display: inline-block;
+  margin-top: 20px;
   padding-top: 20px;
   font-size: 18px;
   width: 400px;
   height: 400px;
-  font-family: cursive;
-
 }
 
 /* This is the beginning on the animated icons on the first page */
@@ -81,7 +78,7 @@
 
   width: 110px;
   height: 110px;
-  position:relative;
+  position: relative;
   -webkit-animation-name: movesLeft;
   -webkit-animation-duration: 15s;
   -webkit-animation-iteration-count: infinite;
@@ -91,20 +88,20 @@
 }
 <!--
 @keyframes movesLeft {
-  0%   {top:50px; }
-  50%  {top:150px; }
-  100% {top:50px;}
+  0%   {top:-50px; right: 50px;}
+  50%  {top:-50px; right: 50px;}
+  100% {top:-50px; right: 50px;}
 }
 
 .levPics2/*Icons in meet me intro. THE ODD ONES MOVING TO THE LEFT*/
 {
   z-index: -1;
-  left: 440px;
   padding-left: 9px;
   padding-right: 3px;
   width: 100px;
   height: 100px;
-  position:relative;
+
+  position: relative;
   -webkit-animation-name: movesRight;
   -webkit-animation-duration: 15s;
   -webkit-animation-iteration-count: infinite;
@@ -113,9 +110,9 @@
   animation-iteration-count: infinite;
 }
 @keyframes movesRight {
-  0%   {top:240px; }
-  50%  {top:105px; }
-  100% {top:240px;}
+  0%   {top:-160px; right: 50px;}
+  50%  {top:0px; right: 50px;}
+  100% {top:-160px; right: 50px;}
 }
 /* The styling for the see me page */
 .pictureFrames
@@ -170,27 +167,26 @@
   width: 350px;
   border-radius: 100px;
   margin-top: 30px;
-  margin-right: 100px;
+  margin-right: 200px;
   float: right;
 }
-
 /* Form contact box on Contact Me Page */
 #contactForm
 {
-float: left;
+
 }
 label
 {
   display:block;
   margin-top: 20px;
   margin-bottom: 5px;
-  margin-left: 140px;
+  margin-left: 300px;
   letter-spacing:2px;
 }
 input, textarea
 {
   margin-top: 80px;
-  margin-left: 140px;
+  margin-left: 300px;
   width:439px;
   height:27px;
   background:#efefef;
