@@ -75,13 +75,14 @@
 }
 .levPics1/*Icons in meet me intro. THE ODD ONES MOVING TO THE LEFT*/
 {
-
+margin-top: 15px;
   width: 110px;
   height: 110px;
   position: relative;
   -webkit-animation-name: movesLeft;
   -webkit-animation-duration: 15s;
   -webkit-animation-iteration-count: infinite;
+  -
   animation-name: movesLeft;
   animation-duration: 7s;
   animation-iteration-count: infinite;
@@ -238,15 +239,23 @@ input:focus, textarea:focus {
 /**
 End of contact me box.
 **/
-
+#github
+{
+  position: relative;
+    padding-right:5px;
+  height: 65px;
+  width: 65px;
+  top: -500px;
+  left:950px;
+}
 #facebook
 {
   padding-right:0px;
   position: relative;
   height: 81px;
   width: 81px;
-  top: -65px;
-  left:500px;
+  top: -400px;
+  left:950px;
 
 }
 #twitter
@@ -255,8 +264,8 @@ End of contact me box.
   position: relative;
   height: 62px;
   width: 62px;
-  top: -75px;
-  left:500px;
+  top: -325px;
+  left:790px;
 }
 
 #instagram{
@@ -264,23 +273,14 @@ End of contact me box.
     padding-right:5px;
   height: 63px;
   width: 63px;
-  top: -75px;
-  left:500px;
+  top: -250px;
+  left:800px;
 }
-#github
-{
-  position: relative;
-    padding-right:5px;
-  height: 65px;
-  width: 65px;
-  top: -75px;
-  left:500px;
 
-}
 #resume
 {
   position: relative;
   height: 63px;
   width: 63px;
-  top: -75px;
-  left:500px;
+  top: -150px;
+  left:650px;
