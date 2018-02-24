@@ -52,14 +52,14 @@
   float: left;
   width: 400px;
   height: 450px;
-  border-radius: 50px;
+  border-radius: 1000px;
   margin-left: 0px;
   margin: 50px 70px 70px 70px;
 }
 /*Intro text on the first page for the stuff on the left*/
 #meetMeIntroText
 {
- display: inline-block;
+  display: inline-block;
   margin-top: 20px;
   padding-top: 20px;
   font-size: 18px;
@@ -88,9 +88,9 @@
 }
 <!--
 @keyframes movesLeft {
-  0%   {top:-50px; right: 50px;}
-  50%  {top:-50px; right: 50px;}
-  100% {top:-50px; right: 50px;}
+  0%   {top:-10px; right: 50px;}
+  50%  {top:-10px; right: 50px;}
+  100% {top:-10px; right: 50px;}
 }
 
 .levPics2/*Icons in meet me intro. THE ODD ONES MOVING TO THE LEFT*/
@@ -110,9 +110,9 @@
   animation-iteration-count: infinite;
 }
 @keyframes movesRight {
-  0%   {top:-160px; right: 50px;}
-  50%  {top:0px; right: 50px;}
-  100% {top:-160px; right: 50px;}
+  0%   {top:-110px; right: 50px;}
+  50%  {top:-20px; right: 50px;}
+  100% {top:-110px; right: 50px;}
 }
 /* The styling for the see me page */
 .pictureFrames
@@ -149,10 +149,10 @@
 /*Text at top of the contact me page*/
 #topTextContactMe
 {
-  margin-top: 20px;
-  margin-bottom: 100px;
-  margin-right: 50px;
-  margin-left: 80px;
+  margin-top: 00px;
+  margin-bottom: 000px;
+  margin-right: 00px;
+  margin-left: 00px;
   padding-top: 10px;
   font-size: 20px;
   align: left;
@@ -160,36 +160,31 @@
   font-family:  sans-serif;
 
 }
-/*Tucker Pick up picture*/
+
 #tuckerPickUp
 {
-  margin-left: 300px;
-  height: 500px;
-  width: 300px;
-  border-radius: 100px;
-  margin-top: 30px;
-  margin-right: 0px;
-  float: left;
+  height: 440px;
+  width: 350px;
+  margin-left: 500px;
+  margin-top: -510px;
+  border-radius: 30px;
 }
 /* Form contact box on Contact Me Page */
 #contactForm
 {
-    margin-left:auto;
-    margin-right:auto;
-    width:1000px;
+  width:1000px;
 }
 label
 {
   display:block;
   margin-top: 20px;
   margin-bottom: 5px;
-  margin-left: 700px;
+  margin-left: 0px;
   letter-spacing:2px;
 }
 input, textarea
 {
-  margin-top: 80px;
-  margin-left: 100px;
+  margin-top: -700px;
   width:439px;
   height:27px;
   background:#efefef;
@@ -208,17 +203,18 @@ input:focus, textarea:focus
 }
 textarea
 {
+  resize: none;
   height:213px;
   background:url(images/textarea-bg.jpg) right no-repeat #efefef;
 }
 #submit
 {
-  margin-left: 850px;
   width:127px;
   height:38px;
   display: block;
   border:none;
   margin-top:20px;
+  margin-left: 150px;
   cursor:pointer;
 }
 #submit:hover
@@ -243,37 +239,42 @@ input:focus, textarea:focus {
 End of contact me box.
 **/
 
-/* The social media icons on the balls*/
 #facebook
 {
+  padding-right:0px;
   position: relative;
   height: 81px;
   width: 81px;
-  top: -333px;
-  left:465px;
+  top: -65px;
+  left:500px;
+
 }
 #twitter
 {
+    padding-right:5px;
   position: relative;
   height: 62px;
   width: 62px;
-  top: -341px;
-  left:450px;
+  top: -75px;
+  left:500px;
 }
+
 #instagram{
   position: relative;
+    padding-right:5px;
   height: 63px;
   width: 63px;
-  top: -342px;
-  left:443px;
+  top: -75px;
+  left:500px;
 }
 #github
 {
   position: relative;
+    padding-right:5px;
   height: 65px;
   width: 65px;
-  top: -340px;
-  left:485px;
+  top: -75px;
+  left:500px;
 
 }
 #resume
@@ -281,5 +282,5 @@ End of contact me box.
   position: relative;
   height: 63px;
   width: 63px;
-  top: -343px;
-  left:437px;
+  top: -75px;
+  left:500px;
