@@ -246,7 +246,7 @@ End of contact me box.
     padding-right:5px;
   height: 65px;
   width: 65px;
-  top: -500px;
+  top: -450px;
   left:950px;
 }
 #facebook
@@ -255,7 +255,7 @@ End of contact me box.
   position: relative;
   height: 81px;
   width: 81px;
-  top: -400px;
+  top: -375px;
   left:950px;
 
 }
@@ -283,5 +283,5 @@ End of contact me box.
   position: relative;
   height: 63px;
   width: 63px;
-  top: -150px;
+  top: -200px;
   left:650px;
