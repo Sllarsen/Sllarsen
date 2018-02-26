@@ -144,44 +144,54 @@ margin-top: 20px;
   position: relative;
 }
 /*Contact Page starts here */
-#welcomeTextHey{
-  font-size: 40px;
+
+#welcomeTextHey {
+margin-left: 400px;
+  font-size: 50px;
+  margin-bottom: 10px;
 }
 
-/*Text at top of the contact me page*/
-#topTextContactMe
+#closingText
 {
-  padding-top: 10px;
+
   font-size: 20px;
   height: 200px;
-  font-family:  sans-serif;
-
+  margin-left: 250px;
+  width: 500px;
 }
+
+
+
 
 #tuckerPickUp
 {
   height: 440px;
   width: 350px;
-  margin-left: 500px;
+  margin-left: 560px;
   margin-top: -510px;
   border-radius: 30px;
 }
 /* Form contact box on Contact Me Page */
 #contactForm
 {
+  margin-top: 700px;
   width:1000px;
+  margin-left: 40px;
+  position: relative;
 }
 label
 {
   display:block;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 5px;
-  margin-left: 0px;
+  margin-left: 50px;
   letter-spacing:2px;
+
 }
 input, textarea
 {
-  margin-top: -700px;
+  margin-left: 50px;
+  margin-top: -850px;
   width:439px;
   height:27px;
   background:#efefef;
@@ -243,7 +253,7 @@ padding-bottom: 10px;
 flex-direction: row;
 height: 65px;
 width: 65px;
-margin-left: 950px;
+margin-left: 955px;
 }
 #theSocialMediaIcon
 {
