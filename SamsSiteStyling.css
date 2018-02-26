@@ -151,13 +151,8 @@ margin-top: 20px;
 /*Text at top of the contact me page*/
 #topTextContactMe
 {
-  margin-top: 00px;
-  margin-bottom: 000px;
-  margin-right: 00px;
-  margin-left: 00px;
   padding-top: 10px;
   font-size: 20px;
-  align: left;
   height: 200px;
   font-family:  sans-serif;
 
@@ -240,48 +235,17 @@ input:focus, textarea:focus {
 /**
 End of contact me box.
 **/
-#github
+#theSocialMediaIcon img
 {
-  position: relative;
-    padding-right:5px;
-  height: 65px;
-  width: 65px;
-  top: -450px;
-  left:950px;
+display: relative;
+vertical-align: middle;
+padding-bottom: 10px;
+flex-direction: row;
+height: 65px;
+width: 65px;
+margin-left: 950px;
 }
-#facebook
+#theSocialMediaIcon
 {
-  padding-right:0px;
-  position: relative;
-  height: 81px;
-  width: 81px;
-  top: -375px;
-  left:950px;
-
+ margin-top: -475px;
 }
-#twitter
-{
-    padding-right:5px;
-  position: relative;
-  height: 62px;
-  width: 62px;
-  top: -325px;
-  left:790px;
-}
-
-#instagram{
-  position: relative;
-    padding-right:5px;
-  height: 63px;
-  width: 63px;
-  top: -250px;
-  left:800px;
-}
-
-#resume
-{
-  position: relative;
-  height: 63px;
-  width: 63px;
-  top: -200px;
-  left:650px;
