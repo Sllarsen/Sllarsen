@@ -6,7 +6,7 @@
 }
 #bodyAll
 {
-  background-color: #1dd1a1; /*backgroundColor*/
+  background-color: #B3EFB2; /*backgroundColor*/
 }
 .allTabs /*Tabs*/
 {
@@ -146,7 +146,8 @@ margin-top: 20px;
 /*Contact Page starts here */
 
 #welcomeTextHey {
-margin-left: 400px;
+  width: 300px;
+  margin-left: 150px;
   font-size: 50px;
   margin-bottom: 10px;
 }
@@ -167,7 +168,7 @@ margin-left: 400px;
 {
   height: 440px;
   width: 350px;
-  margin-left: 560px;
+  margin-left: 660px;
   margin-top: -510px;
   border-radius: 30px;
 }
@@ -175,8 +176,8 @@ margin-left: 400px;
 #contactForm
 {
   margin-top: 700px;
-  width:1000px;
-  margin-left: 40px;
+  width:2000px;
+  margin-left: 400px;
   position: relative;
 }
 label
@@ -184,13 +185,13 @@ label
   display:block;
   margin-top: 30px;
   margin-bottom: 5px;
-  margin-left: 50px;
+  margin-left: 150px;
   letter-spacing:2px;
 
 }
 input, textarea
 {
-  margin-left: 50px;
+  margin-left: 150px;
   margin-top: -850px;
   width:439px;
   height:27px;
@@ -247,15 +248,18 @@ End of contact me box.
 **/
 #theSocialMediaIcon img
 {
-display: relative;
 vertical-align: middle;
 padding-bottom: 10px;
-flex-direction: row;
 height: 65px;
 width: 65px;
-margin-left: 955px;
+
+
 }
 #theSocialMediaIcon
 {
- margin-top: -475px;
+  white-space: nowrap;
+ margin-top: -600px;
+ margin-left:650px;
+
+
 }
