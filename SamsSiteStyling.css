@@ -31,10 +31,32 @@
   font-size: 26px;
   margin-right: 20px;
   cursor: pointer;
+  outline: none;
+
+}
+#button1
+{
+  box-shadow: 0 0 5px #999999;
+}
+#button2
+{
   box-shadow: 0 9px #999;
 }
-.button:hover {/*Tabs on hovor*/
+
+#button3
+{
+  box-shadow: 0 9px #999;
+}
+#button2:hover
+{
   color: white;
+}
+#button:active
+{
+  color: white;
+}
+.button:hover {/*Tabs on hovor*/
+  color: black;
 }
 .button:active /*Tabs when clicked*/
 {
@@ -42,8 +64,9 @@
 }
 #button1
 {
-  background-color: #A569BD;
+  background-color: #4B7F52;
   transform: translateY(10px);
+
 
 }
 
