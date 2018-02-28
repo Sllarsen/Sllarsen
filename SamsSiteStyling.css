@@ -169,10 +169,13 @@ margin-top: 20px;
 }
 .pushpin img
 {
-  height: 70px;
-  width: 70px;
-  display: inline;
+  height: 40px;
+  width: 50px;
   position: relative;
+  background: none;
+  padding: inherit;
+  min-width: inherit;
+  margin: inherit;
 }
 /*Contact Page starts here */
 
