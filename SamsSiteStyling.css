@@ -149,6 +149,7 @@ margin-top: 20px;
 }
 .pictureFrames img
 {
+  position: relative;
   min-width: 100px;
   height: 350px;
   background: white;
@@ -165,6 +166,12 @@ margin-top: 20px;
   -moz-transition: all .15s linear;
   transition: all .15s linear;
   z-index:0;
+}
+.pushpin img
+{
+  height: 70px;
+  width: 70px;
+  display: inline;
   position: relative;
 }
 /*Contact Page starts here */
