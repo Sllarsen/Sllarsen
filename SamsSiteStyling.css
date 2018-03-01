@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 #wrapper {
   margin-left:auto;
   margin-right:auto;
@@ -33,6 +33,7 @@
   margin-right: 20px;
   cursor: pointer;
   outline: none;
+  font-family: 'Roboto', sans-serif;
 
 }
 #button1
@@ -87,11 +88,20 @@
   margin-top: 20px;
   padding-top: 20px;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
   width: 400px;
   height: 400px;
 }
 
+/** Changes the hyperlink colors*/
+a{
+  color: blue;
+}
+a:visited
+{
+  color: blue;
+}
 /* This is the beginning on the animated icons on the first page */
 .introTextPics img
 {
@@ -126,7 +136,6 @@ margin-top: 20px;
   padding-right: 3px;
   width: 100px;
   height: 100px;
-
   position: relative;
   -webkit-animation-name: movesRight;
   -webkit-animation-duration: 15s;
@@ -167,6 +176,7 @@ margin-top: 20px;
   transition: all .15s linear;
   z-index:0;
 }
+/* PushPins*/
 .pushpin img
 {
   height: 40px;
@@ -179,22 +189,23 @@ margin-top: 20px;
 }
 /*Contact Page starts here */
 
-#welcomeTextHey {
+#goodbyeText {
   width: 300px;
   margin-left: 150px;
   font-size: 50px;
   margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
 }
-
+/* closing text on contact page */
 #closingText
 {
-
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   height: 200px;
   margin-left: 250px;
   width: 500px;
 }
-
+/* tuker pick up */
 #tuckerPickUp
 {
   height: 440px;
@@ -282,8 +293,8 @@ width: 65px;
 #theSocialMediaIcon
 {
   white-space: nowrap;
- margin-top: -580px;
- margin-left:650px;
+ margin-top: -570px;
+ margin-left:660px;
 
 
 }
