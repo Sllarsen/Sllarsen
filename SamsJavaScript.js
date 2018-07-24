@@ -33,8 +33,8 @@ function isToggled(number)
         }
         else if (number == 2)
         {
-          document.getElementById("allTabs").style.backgroundImage = "url('http://xboxhut.com/wp-content/uploads/2016/06/cork-board-background-template-traditional-compact.jpg')";
-          document.getElementById("bodyAll").style.backgroundImage = "url('http://xboxhut.com/wp-content/uploads/2016/06/cork-board-background-template-traditional-compact.jpg')";
+          document.getElementById("allTabs").style.backgroundImage = "url('https://thumbs.dreamstime.com/b/corkboard-texture-background-20627837.jpg')";
+          document.getElementById("bodyAll").style.backgroundImage = "url('https://thumbs.dreamstime.com/b/corkboard-texture-background-20627837.jpg')";
           document.getElementById("button2").style.backgroundColor = "#4B4237";
           document.getElementById("button2").style.transform = "translateY(10px)";
           document.getElementById("button2").style.color = "white";
